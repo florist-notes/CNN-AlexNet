@@ -13,7 +13,7 @@ This paper is important as it stands as a stepping stone for CNNs in Computer Vi
 AlexNet is a CNN architecture, introduced in 2012 by [Alex Krizhevsky](https://scholar.google.com/citations?user=xegzhJcAAAAJ), [Ilya Sutskever](https://scholar.google.com/citations?user=x04W_mMAAAAJ) and [Geoffrey Hinton](https://scholar.google.co.uk/citations?user=JicYPdAAAAAJ). It has 7 hidden weight layers & contains :
 ● 650,000 neurons
 ● 60,000,000 parameters
-● 630,000,000 connections
+● 630,000,000 connections.
 
 Architecture:
 -
