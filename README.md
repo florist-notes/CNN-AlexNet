@@ -125,15 +125,11 @@ Important Points:
 
 Practical:
 -
-Alexnet implementation in Tensorflow available [here](https://www.cs.toronto.edu/~guerzhoy/tf_alexnet/).
 
 | Net | Backend | Weights |
 |--------|------------|---------|
 |AlexNet|[Tensorflow](https://github.com/tensorflow/models/blob/master/research/slim/nets/alexnet.py)|[Weights](https://www.cs.toronto.edu/~guerzhoy/tf_alexnet/)|
 |AlexNet|[Caffe](http://dandxy89.github.io/ImageModels/alexnet/)|[Weights](https://github.com/BVLC/caffe/tree/master/models/bvlc_alexnet)|
-
-Take Away:
--
 
 
 References
