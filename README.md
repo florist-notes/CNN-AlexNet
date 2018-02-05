@@ -29,8 +29,13 @@ The Network had a very similar architecture to [LeNet](https://github.com/SKKSai
 Properties:
 -
 
-    Imput Image size : 227 x 227 x 3
-    After Conv1 : 55 x 55 x 96
+    Input Image size : 227 x 227 x 3
+    Output (from Conv1): 55 x 55 x 96
+    
+    Second Layer (Pool 1) : 3 x 3 filter applied at stride 2
+    Output (from Pool1): 27 x 27 x 96
+    
+    
   
 Practical:
 -
