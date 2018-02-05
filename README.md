@@ -8,7 +8,12 @@
 
 It is a benchmark competition where teams across the world compete to classify, localize, detect ... images of 1000 categories, taken from the imagenet dataset.The imagenet dataset holds 15M images of 22K categories but for this contest: 1.2M images in 1K categories were chosen.Their goal was, Classification i.e, make 5 guesses about label for an image.Team "SuperVision (AlexNet) ", achieved top 5 test error rate of 15.4% ( next best entry achieved an error of 26.2% ). This was a huge success. Check ILSVRC 2012 [results](http://image-net.org/challenges/LSVRC/2012/results.html).
 
-AlexNet is a CNN architecture introduced in 2012 by [Alex Krizhevsky](https://scholar.google.com/citations?user=xegzhJcAAAAJ), [Ilya Sutskever](https://scholar.google.com/citations?user=x04W_mMAAAAJ) and [Geoffrey Hinton](https://scholar.google.co.uk/citations?user=JicYPdAAAAAJ).
+This paper is important as it stands as a stepping stone for CNNs in Computer Vision community. It was record breaking, new and exciting.
+
+AlexNet is a CNN architecture, introduced in 2012 by [Alex Krizhevsky](https://scholar.google.com/citations?user=xegzhJcAAAAJ), [Ilya Sutskever](https://scholar.google.com/citations?user=x04W_mMAAAAJ) and [Geoffrey Hinton](https://scholar.google.co.uk/citations?user=JicYPdAAAAAJ). It has 7 hidden weight layers & contains :
+● 650,000 neurons
+● 60,000,000 parameters
+● 630,000,000 connections
 
 Architecture:
 -
