@@ -26,14 +26,57 @@ The Network had a very similar architecture to [LeNet](https://github.com/SKKSai
 
 <img src="https://github.com/SKKSaikia/CNN-AlexNet/blob/master/img/arch.jpg">
 
-Properties:
+model.summary():
 -
 
     Input Image size : 227 x 227 x 3
-    Output (from Conv1): 55 x 55 x 96
     
-    Second Layer (Pool 1) : 3 x 3 filter applied at stride 2
+    ● CONV1
+    Output (from Conv1): 55 x 55 x 96  
+    First Layer Conv1 has 96 11x11 filters at stride 4, pad 0
+    
     Output (from Pool1): 27 x 27 x 96
+    Max Pool 1 has 3 x 3 filter applied at stride 2
+    
+    Ouput ( Normalization Layer ): 27 x 27 x 96
+    
+    ●CONV2
+
+    Output (from Conv2): 27 x 27 x 256  
+    Second Layer Conv2 has 256 5x5 filters at stride 1, pad 2
+    
+    Output (from Pool2): 13 x 13 x 256
+    Max Pool 2 has 3 x 3 filter applied at stride 2
+    
+    Ouput ( Normalization Layer ): 13 x 13 x 256
+    
+    ●CONV3
+    
+    Output (from Conv3): 13 x 13 x 384
+    Third Layer Conv3 has 384 3x3 filters at stride 1, pad 1
+    
+    ●CONV4
+    
+    Output (from Conv4): 13 x 13 x 384
+    Fourth Layer Conv4 has 384 3x3 filters at stride 1, pad 1
+    
+    ●CONV5
+    
+    Output (from Conv5): 13 x 13 x 256
+    Fifth Layer Conv5 has 256 3x3 filters at stride 1, pad 1
+    
+    Output (from Pool3): 6 x 6 x 256
+    Max Pool 3 has 3 x 3 filter applied at stride 2
+    
+    
+    ●FC6
+    Fully Connected Layer 6 : 4096 neurons
+    
+    ●FC7
+    Fully Connected Layer 7 : 4096 neurons
+    
+    ●FC8
+    Fully Connected Layer 7 : 1000 neurons ( class scores )
     
     
   
