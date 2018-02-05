@@ -8,7 +8,7 @@
 
 It is a benchmark competition where teams across the world compete to classify, localize, detect ... images of 1000 categories, taken from the imagenet dataset.The imagenet dataset holds 15M images of 22K categories but for this contest: 1.2M images in 1K categories were chosen.Their goal was, Classification i.e, make 5 guesses about label for an image.Team "SuperVision (AlexNet) ", achieved top 5 test error rate of 15.4% ( next best entry achieved an error of 26.2% ) more than 10.8 percentage points ahead of the runner up. This was a huge success. Check ILSVRC 2012 [results](http://image-net.org/challenges/LSVRC/2012/results.html).
 
-This paper is important as it stands as a stepping stone for CNNs in Computer Vision community. It was record breaking, new and exciting.
+This paper is important as it stands as a stepping stone for CNNs in Computer Vision community. It was record breaking, new and exciting. Later in 2014, Alex once again shows a unique way to parrallelize CNNs in his paper, "[One weird trick for parallelizing convolutional neural networks](https://arxiv.org/abs/1404.5997)"
 
 Overview
 -
