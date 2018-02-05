@@ -28,7 +28,7 @@ But wait,
 What are Convolutional, Fully Connected, Max-pooling (P), Dropout & Normalization (N) Layers ?
 :Find the Answers in CS231n's [blog](https://cs231n.github.io/convolutional-networks/) on CNN.
 
-The Network had a very similar architecture to [LeNet](https://github.com/SKKSaikia/CNN-LeNet), but was deeper, bigger, and featured Convolutional Layers stacked on top of each other (previously it was common to only have a single CONV layer always immediately followed by a POOL layer.So the Architecture looks like :
+The Network had a very similar architecture to [LeNet](https://github.com/SKKSaikia/CNN-LeNet), but was deeper, bigger, and featured Convolutional Layers stacked on top of each other (previously it was common to only have a single CONV layer always immediately followed by a POOL layer). The Architecture can be summarized as :
 
         
     ( Image ) ->CONV1->P1->N1  ->CONV2->P2->N2 ->CONV3->P3->N3 ->CONV4 ->CONV5->P4 ->FC6 ->FC7 ->FC8 -> ( Label )
