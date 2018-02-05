@@ -19,7 +19,7 @@ AlexNet is a Convolutional Neural Network architecture, introduced in 2012 by [A
 
 Architecture:
 -
-Alexnet contained <b>only 8 layers</b>, first 5 were convolutional layers followed by fully connected layers. It had max-pooling layers and dropout layers in between.
+Alexnet contained <b>only 8 layers</b>, first 5 were convolutional layers followed by fully connected layers. It had max-pooling layers and dropout layers in between. A simple skeleton looks like :
 <img src="https://github.com/SKKSaikia/CNN-AlexNet/blob/master/img/arch-simple.jpg">
 
 But wait,
@@ -28,7 +28,10 @@ What are Convolutional, Fully Connected, Max-pooling, Dropout & Normalization La
 
 :Find the Answer in CS231n's [blog](https://cs231n.github.io/convolutional-networks/) on CNN.
 
-The Network had a very similar architecture to [LeNet](https://github.com/SKKSaikia/CNN-LeNet), but was deeper, bigger, and featured Convolutional Layers stacked on top of each other (previously it was common to only have a single CONV layer always immediately followed by a POOL layer.
+The Network had a very similar architecture to [LeNet](https://github.com/SKKSaikia/CNN-LeNet), but was deeper, bigger, and featured Convolutional Layers stacked on top of each other (previously it was common to only have a single CONV layer always immediately followed by a POOL layer.So the Architecture looks like :
+
+        
+         ( Image ) ->CONV1->Pool1->Norm1  ->CONV2->Pool2->Norm2 ->CONV3->Pool3->Norm3 ->CONV4 ->CONV5->Pool4 ->FC6 ->FC7 ->FC8 -> Label
 
 <img src="https://github.com/SKKSaikia/CNN-AlexNet/blob/master/img/arch.jpg">
 
