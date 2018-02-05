@@ -126,7 +126,10 @@ Important Points:
 Practical:
 -
 Alexnet implementation in Tensorflow available [here](https://www.cs.toronto.edu/~guerzhoy/tf_alexnet/).
-
+| Net | Backend | Weights |
+|--------|------------|---------|
+|AlexNet|[Tensorflow]()|[Weights]()|
+|AlexNet|[Caffe]()|[Weights]()|
 
 Take Away:
 -
