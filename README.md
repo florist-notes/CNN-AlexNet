@@ -32,6 +32,8 @@ What is Max-pooling Layer ?
 :
 What is Dropout Layer ?
 :
+What is Normalization Layer ?
+:
 
 The Network had a very similar architecture to [LeNet](https://github.com/SKKSaikia/CNN-LeNet), but was deeper, bigger, and featured Convolutional Layers stacked on top of each other (previously it was common to only have a single CONV layer always immediately followed by a POOL layer.
 
@@ -49,7 +51,7 @@ model.summary():
     Output (from Pool1): 27 x 27 x 96
     Max Pool 1 has 3 x 3 filter applied at stride 2
     
-    Ouput ( Normalization Layer ): 27 x 27 x 96
+    Ouput ( from Normalization Layer ): 27 x 27 x 96
     
     ●CONV2
 
@@ -59,7 +61,7 @@ model.summary():
     Output (from Pool2): 13 x 13 x 256
     Max Pool 2 has 3 x 3 filter applied at stride 2
     
-    Ouput ( Normalization Layer ): 13 x 13 x 256
+    Ouput ( from Normalization Layer ): 13 x 13 x 256
     
     ●CONV3
     
