@@ -27,16 +27,13 @@ The Network had a very similar architecture to [LeNet](https://github.com/SKKSai
 Properties:
 -
 
-  
-  Imput Image size : 227 x 227 x 3
-  
-  After Conv1 : 55 x 55 x 96
+    Imput Image size : 227 x 227 x 3
+    After Conv1 : 55 x 55 x 96
   
   
 References
 -
 
-  
-  CS231n : Lecture 9 | CNN Architectures - AlexNet
+    CS231n : Lecture 9 | CNN Architectures - AlexNet
   
   
