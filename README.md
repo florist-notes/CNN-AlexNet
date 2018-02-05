@@ -46,7 +46,7 @@ model.summary():
     
     ● CONV1
     Output (from Conv1): 55 x 55 x 96  
-    First Layer Conv1 has 96 11x11 filters at stride 4, pad 0
+    First Layer Conv1 has 96 11x11x3 filters at stride 4, pad 0
     
     Output (from Pool1): 27 x 27 x 96
     Max Pool 1 has 3 x 3 filter applied at stride 2
@@ -56,7 +56,7 @@ model.summary():
     ●CONV2
 
     Output (from Conv2): 27 x 27 x 256  
-    Second Layer Conv2 has 256 5x5 filters at stride 1, pad 2
+    Second Layer Conv2 has 256 5x5x48 filters at stride 1, pad 2
     
     Output (from Pool2): 13 x 13 x 256
     Max Pool 2 has 3 x 3 filter applied at stride 2
@@ -66,17 +66,17 @@ model.summary():
     ●CONV3
     
     Output (from Conv3): 13 x 13 x 384
-    Third Layer Conv3 has 384 3x3 filters at stride 1, pad 1
+    Third Layer Conv3 has 384 3x3x256 filters at stride 1, pad 1
     
     ●CONV4
     
     Output (from Conv4): 13 x 13 x 384
-    Fourth Layer Conv4 has 384 3x3 filters at stride 1, pad 1
+    Fourth Layer Conv4 has 384 3x3x192 filters at stride 1, pad 1
     
     ●CONV5
     
     Output (from Conv5): 13 x 13 x 256
-    Fifth Layer Conv5 has 256 3x3 filters at stride 1, pad 1
+    Fifth Layer Conv5 has 256 3x3x192 filters at stride 1, pad 1
     
     Output (from Pool3): 6 x 6 x 256
     Max Pool 3 has 3 x 3 filter applied at stride 2
@@ -92,7 +92,13 @@ model.summary():
     Fully Connected Layer 7 : 1000 neurons ( class scores )
     
     
-  
+Important Points:
+-
+
+    ● ReLU non linearity is applied to the output of every convolutional layer and fully connected layer.
+    ● 
+    
+
 Practical:
 -
 
