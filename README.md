@@ -97,8 +97,8 @@ Important Points:
       one GPU and half neurons!!
     ● Local Response Normalization
       Response normalization reduces top-1 and top-5 error rates by 1.4% and 1.2% , respectively.
-    ● Overlapping Pooling ( s x z , where s < z )
-      top-1 and top-5 error rates decrease by 0.4% and 0.3%, respectively, compared to the non-overlapping scheme s = 2, z = 2
+    ● Overlapping Pooling ( s x z , where s < z ) compared to the non-overlapping scheme s = 2, z = 2
+      top-1 and top-5 error rates decrease by 0.4% and 0.3%, respectively.
     ● Reducing Overfitting
       Data Augmentation!
         - 60 million parameters, 650,000 neurons (Overfits a lot.)
@@ -106,7 +106,12 @@ Important Points:
         - At test time, average the predictions on the 10 patches.
     ● Reducing Overfitting - Dropout
     ● Stochastic Gradient Descent Learning
-    ● Stochastic Gradient Descent Learning
+    ● 96 Convolutional Kernels ( 11 x 11 x 3 size kernels. ) :
+        - top 48 kernels on GPU 1 : color-agnostic
+        - bottom 48 kernels on GPU 2 : color-specific.
+    ● In the paper, they say "Depth is really important.removing a single convolutional layer degrades
+      the performance."
+    
     
 
 Practical:
