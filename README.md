@@ -17,6 +17,9 @@ AlexNet is a CNN architecture, introduced in 2012 by [Alex Krizhevsky](https://s
 
 Architecture:
 -
+<img src="https://github.com/SKKSaikia/CNN-AlexNet/blob/master/img/arch-simple.jpg">
+
+
 <img src="https://github.com/SKKSaikia/CNN-AlexNet/blob/master/img/arch.jpg">
 
 It has 5 Convolution layers,max-pooling layers, dropout layers and 3 Fully connected layers.
