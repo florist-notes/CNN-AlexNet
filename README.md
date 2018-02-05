@@ -26,8 +26,7 @@ Alexnet contained <b>only 8 layers</b>, first 5 were convolutional layers follow
 But wait,
 
 What are Convolutional, Fully Connected, Max-pooling (P), Dropout & Normalization (N) Layers ?
-
-:Find the Answer in CS231n's [blog](https://cs231n.github.io/convolutional-networks/) on CNN.
+:Find the Answers in CS231n's [blog](https://cs231n.github.io/convolutional-networks/) on CNN.
 
 The Network had a very similar architecture to [LeNet](https://github.com/SKKSaikia/CNN-LeNet), but was deeper, bigger, and featured Convolutional Layers stacked on top of each other (previously it was common to only have a single CONV layer always immediately followed by a POOL layer.So the Architecture looks like :
 
