@@ -32,7 +32,14 @@ Properties:
     Imput Image size : 227 x 227 x 3
     After Conv1 : 55 x 55 x 96
   
-  
+Practical:
+-
+
+
+Take Away:
+-
+
+
 References
 -
 
