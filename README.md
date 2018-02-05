@@ -24,8 +24,14 @@ The Network had a very similar architecture to [LeNet](https://github.com/SKKSai
 
 <img src="https://github.com/SKKSaikia/CNN-AlexNet/blob/master/img/arch.jpg">
 
+Properties:
+-
 
-
+  Imput Image size : 227 x 227 x 3
+  
+  After Conv1 : 55 x 55 x 96
+  
+  
 References
 -
 
