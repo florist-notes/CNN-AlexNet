@@ -89,7 +89,11 @@ Important Points:
 -
 
     ● ReLU non linearity is applied to the output of every convolutional layer and fully connected layer.
-    ● 
+    ● Rectified Linear Units, overlapping pooling, dropout trick to avoid overfitting
+    ● Layer 1 (Convolutional) : 55*55*96 = 290,400 neurons & each has 11*11*3 = 363 weights and 1 bias i.e, 290400 * 364 = 105,705,600 paramaters on the first layer of the AlexNet alone!
+."
+    ●
+    ●
     
 
 Practical:
