@@ -31,7 +31,7 @@ What are Convolutional, Fully Connected, Max-pooling (P), Dropout & Normalizatio
 The Network had a very similar architecture to [LeNet](https://github.com/SKKSaikia/CNN-LeNet), but was deeper, bigger, and featured Convolutional Layers stacked on top of each other (previously it was common to only have a single CONV layer always immediately followed by a POOL layer). The Architecture can be summarized as :
 
         
-    ( Image ) ->CONV1->P1->N1  ->CONV2->P2->N2 ->CONV3->P3->N3 ->CONV4 ->CONV5->P4 ->FC6 ->FC7 ->FC8 -> ( Label )
+    ( Image ) ->CONV1->P1->N1  ->CONV2->P2->N2 ->CONV3 ->CONV4 ->CONV5->P3 ->FC6 ->FC7 ->FC8 -> ( Label )
 
 <img src="https://github.com/SKKSaikia/CNN-AlexNet/blob/master/img/arch.jpg">
 
