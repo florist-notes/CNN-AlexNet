@@ -12,7 +12,7 @@ This paper is important as it stands as a stepping stone for CNNs in Computer Vi
 
 Overview
 -
-AlexNet is a Convolutional Neural Network architecture, introduced in 2012 by [Alex Krizhevsky](https://scholar.google.com/citations?user=xegzhJcAAAAJ), [Ilya Sutskever](https://scholar.google.com/citations?user=x04W_mMAAAAJ) and [Geoffrey Hinton](https://scholar.google.co.uk/citations?user=JicYPdAAAAAJ). It has 7 hidden weight layers & contains :
+AlexNet is a Convolutional Neural Network architecture, introduced in 2012 by [Alex Krizhevsky](https://scholar.google.com/citations?user=xegzhJcAAAAJ), [Ilya Sutskever](https://scholar.google.com/citations?user=x04W_mMAAAAJ) and [Geoffrey Hinton](https://scholar.google.co.uk/citations?user=JicYPdAAAAAJ). It has 7 hidden weight layers & contains 
 ● 650,000 neurons
 ● 60,000,000 parameters
 ● 630,000,000 connections. In simple terms, it is a model to correctly classify images.
@@ -33,7 +33,7 @@ What is Max-pooling Layer ?
 What is Dropout Layer ?
 :
 
-The Network had a very similar architecture to [LeNet](https://github.com/SKKSaikia/CNN-LeNet), but was deeper, bigger, and featured Convolutional Layers stacked on top of each other (previously it was common to only have a single CONV layer always immediately followed by a POOL layer).
+The Network had a very similar architecture to [LeNet](https://github.com/SKKSaikia/CNN-LeNet), but was deeper, bigger, and featured Convolutional Layers stacked on top of each other (previously it was common to only have a single CONV layer always immediately followed by a POOL layer.
 
 <img src="https://github.com/SKKSaikia/CNN-AlexNet/blob/master/img/arch.jpg">
 
