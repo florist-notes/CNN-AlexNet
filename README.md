@@ -39,7 +39,7 @@ But why does the architecture diagram in the paper looks so scary ?
 
 <img src="https://github.com/SKKSaikia/CNN-AlexNet/blob/master/img/alexnet.png">
 
-It is because, training was done in 2 GPUs.Onw GPU runs the layer parts at the top of the figure while the other runs the layer parts at the bottom. the GPUs communicate only at certain layers. 
+It is because, training was done in 2 GPUs. One GPU runs the layer parts at the top of the figure while the other runs the layer parts at the bottom. The GPUs communicate only at certain layers. 
 
 model.summary():
 -
