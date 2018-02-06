@@ -137,6 +137,7 @@ The script is available here : [alexnet-keras.py]()
 
 Training on the CIFAR-10 dataset gives an accuracy of 78%
 
+We can find other AlexNet trained datasets like the [MIT-places](http://places.csail.mit.edu/downloadCNN.html) dataset.
 
 References
 -
