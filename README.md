@@ -131,6 +131,12 @@ Practical:
 |AlexNet|[Tensorflow](https://github.com/tensorflow/models/blob/master/research/slim/nets/alexnet.py)|[Weights](https://www.cs.toronto.edu/~guerzhoy/tf_alexnet/)|
 |AlexNet|[Caffe](http://dandxy89.github.io/ImageModels/alexnet/)|[Weights](https://github.com/BVLC/caffe/tree/master/models/bvlc_alexnet)|
 
+Let's build the Alexnet in Keras ('tf' backend) and test it on [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset. The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
+
+The script is available here : [alexnet-keras.py]()
+
+Training on the CIFAR-10 dataset gives an accuracy of 78%
+
 
 References
 -
