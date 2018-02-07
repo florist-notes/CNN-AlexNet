@@ -127,6 +127,7 @@ Important Points:
       the performance."
     
     
+<img src="https://github.com/SKKSaikia/CNN-AlexNet/blob/master/img/Alexnet.jpg">
 
 Practical:
 -
