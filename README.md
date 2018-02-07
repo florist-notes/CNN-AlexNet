@@ -135,6 +135,7 @@ Practical:
 |AlexNet|[Caffe](http://dandxy89.github.io/ImageModels/alexnet/)|[Weights](https://github.com/BVLC/caffe/tree/master/models/bvlc_alexnet)|
 
 Let's build the Alexnet in Keras ('tf' backend) and test it on [COCO-dataset](http://cocodataset.org) & [MIT Places](http://places.csail.mit.edu/) dataset.
+
 <img src="https://github.com/SKKSaikia/CNN-AlexNet/blob/master/img/coco.jpg">
 
 -> Approach: We take both the COCO & MIT-places dataset one by one, and train them on AlexNet. The original paper implemented lot of Data Augmentation, so we ...
