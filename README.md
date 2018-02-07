@@ -111,18 +111,20 @@ Important Points:
       Response normalization reduces top-1 and top-5 error rates by 1.4% and 1.2% , respectively.
     ● Overlapping Pooling ( s x z , where s < z ) compared to the non-overlapping scheme s = 2, z = 2
       top-1 and top-5 error rates decrease by 0.4% and 0.3%, respectively.
+      overlap pooling makes it hard to overfit.
     ● Reducing Overfitting
       Heavy Data Augmentation!
         - 60 million parameters, 650,000 neurons (Overfits a lot.)
         - Crop 224x224 patches (and their horizontal reflections.)
         - At test time, average the predictions on the 10 patches.
-    ● Reducing Overfitting - Dropout
-    ● Stochastic Gradient Descent Learning
+    ● Reducing Overfitting 
+        - Dropout
+    ● Stochastic Gradient Descent (SGD) Learning
     ● batch size = 128
     ● 96 Convolutional Kernels ( 11 x 11 x 3 size kernels. ) - CONV1, CONV2, CONV4 & CONV5:
         - top 48 kernels on GPU 1 : color-agnostic
         - bottom 48 kernels on GPU 2 : color-specific.
-    ● Connection with all feature maps in preceding layers.
+    ● CONV3, FC1 & FC2 - Connection with all feature maps in preceding layers.
     ● In the paper, they say "Depth is really important.removing a single convolutional layer degrades
       the performance."
     
