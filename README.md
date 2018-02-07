@@ -26,7 +26,7 @@ Alexnet contained <b>only 8 layers</b>, first 5 were convolutional layers follow
 But wait,
 
 What are Convolutional, Fully Connected, Max-pooling (P), Dropout & Normalization (N) Layers ?
-:Find the Answers in CS231n's [blog](https://cs231n.github.io/convolutional-networks/) on CNN.
+Read it [here](), I have explained everything in detail or else you can also read it in CS231n's [blog](https://cs231n.github.io/convolutional-networks/) on CNN.
 
 The Network had a very similar architecture to [LeNet](https://github.com/SKKSaikia/CNN-LeNet), but was deeper, bigger, and featured Convolutional Layers stacked on top of each other (previously it was common to only have a single CONV layer always immediately followed by a POOL layer). The Architecture can be summarized as :
 
@@ -134,13 +134,12 @@ Practical:
 |AlexNet|[Tensorflow](https://github.com/tensorflow/models/blob/master/research/slim/nets/alexnet.py)|[Weights](https://www.cs.toronto.edu/~guerzhoy/tf_alexnet/)|
 |AlexNet|[Caffe](http://dandxy89.github.io/ImageModels/alexnet/)|[Weights](https://github.com/BVLC/caffe/tree/master/models/bvlc_alexnet)|
 
-Let's build the Alexnet in Keras ('tf' backend) and test it on [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) dataset. The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
+Let's build the Alexnet in Keras ('tf' backend) and test it on [COCO-dataset](http://cocodataset.org) & [MIT Places](http://places.csail.mit.edu/) dataset.
+<img src="https://github.com/SKKSaikia/CNN-AlexNet/blob/master/img/coco.jpg">
 
 The script is available here : [alexnet-keras.py]()
 
-Training on the CIFAR-10 dataset gives an accuracy of 78%
-
-We can find other AlexNet trained datasets like the [MIT-places](http://places.csail.mit.edu/downloadCNN.html) dataset.
+<b> RESULTS: </b>
 
 References
 -
