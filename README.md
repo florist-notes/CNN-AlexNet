@@ -116,9 +116,10 @@ Important Points:
     ● Reducing Overfitting - Dropout
     ● Stochastic Gradient Descent Learning
     ● batch size = 128
-    ● 96 Convolutional Kernels ( 11 x 11 x 3 size kernels. ) :
+    ● 96 Convolutional Kernels ( 11 x 11 x 3 size kernels. ) - CONV1, CONV2, CONV4 & CONV5:
         - top 48 kernels on GPU 1 : color-agnostic
         - bottom 48 kernels on GPU 2 : color-specific.
+    ● Connection with all feature maps in preceding layers.
     ● In the paper, they say "Depth is really important.removing a single convolutional layer degrades
       the performance."
     
