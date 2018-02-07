@@ -154,3 +154,4 @@ References
     CS231n : Lecture 9 | CNN Architectures - AlexNet
   
   
+If you find something amusing, don't forget to share with us. Create an issue and let us know.
