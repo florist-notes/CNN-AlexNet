@@ -45,6 +45,7 @@ model.summary():
 -
 
     Input Image size : 227 x 227 x 3
+    (paper says - 224 x 224 , but there's some padding going on, 227 works)
     
     ● CONV1
     Output (from Conv1): 55 x 55 x 96                      //55 = (227-11)/(4+1) = (Image size - Filter size)/stride+1
