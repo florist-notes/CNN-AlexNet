@@ -47,7 +47,7 @@ model.summary():
     Input Image size : 227 x 227 x 3
     
     ● CONV1
-    Output (from Conv1): 55 x 55 x 96                        //55 = (227-11)/(4+1) = (Image size - Filter size)/stride+1
+    Output (from Conv1): 55 x 55 x 96                      //55 = (227-11)/(4+1) = (Image size - Filter size)/stride+1
     First Layer Conv1 has 96 11x11x3 filters at stride 4, pad 0
     
     Output (from Pool1): 27 x 27 x 96
