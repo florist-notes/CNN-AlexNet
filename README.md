@@ -138,7 +138,7 @@ Let's build the Alexnet in Keras ('tf' backend) and test it on [COCO-dataset](ht
 
 <img src="https://github.com/SKKSaikia/CNN-AlexNet/blob/master/img/coco.jpg">
 
--> Approach: We take both the COCO & MIT-places dataset one by one, and train them on AlexNet. The original paper implemented lot of Data Augmentation, so we ...
+●  Approach: We take both the COCO & MIT-places dataset one by one, and train them on AlexNet. The original paper implemented lot of Data Augmentation, so we ...
 The script is available here : [alexnet-keras.py]()
 
 <b> RESULTS: </b>
