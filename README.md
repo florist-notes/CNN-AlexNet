@@ -139,11 +139,17 @@ Practical:
 |AlexNet|[Tensorflow](https://github.com/tensorflow/models/blob/master/research/slim/nets/alexnet.py)|[Weights](https://www.cs.toronto.edu/~guerzhoy/tf_alexnet/)|
 |AlexNet|[Caffe](http://dandxy89.github.io/ImageModels/alexnet/)|[Weights](https://github.com/BVLC/caffe/tree/master/models/bvlc_alexnet)|
 
-Let's build the Alexnet in Keras ('tf' backend) and test it on [COCO-dataset](http://cocodataset.org) & [MIT Places](http://places.csail.mit.edu/) dataset.
+Let's build the Alexnet in Keras ('tf' backend) and test it on [COCO-dataset](http://cocodataset.org) dataset. We will develop all the three methods and train the dataset. The three methods are:
+
+      1. Train from Scratch ( End2End )
+      2. Transfer Learning
+      3. Feature Extraction
+      
+I have explained [here]() what the three methods mean, and how it is to be done.
 
 <img src="https://github.com/SKKSaikia/CNN-AlexNet/blob/master/img/coco.jpg">
 
-●  Approach: We take both the COCO & MIT-places dataset one by one, and train them on AlexNet. The original paper implemented lot of Data Augmentation, so we ...
+●  Approach: We take both COCO dataset, and train it on AlexNet. The original paper implemented lot of Data Augmentation, so we ...
 The script is available here : [alexnet-keras.py]()
 
 <b> RESULTS: </b>
