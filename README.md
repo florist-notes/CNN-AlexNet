@@ -98,7 +98,7 @@ Important Points:
 -
 
     ● ReLU non linearity is applied to the output of every convolutional layer and fully connected layer.
-    ● Rectified Linear Units, overlapping pooling, dropout trick to avoid overfitting
+    ● Rectified Linear Units (first use), overlapping pooling, dropout (0.5) trick to avoid overfitting
     ● Layer 1 (Convolutional) : 55*55*96 = 290,400 neurons & each has 11*11*3 = 363 weights and 1 bias i.e, 
       290400 * 364 = 105,705,600 paramaters on the first layer of the AlexNet alone!
     ● Training on multiple GPUs ( 2 NVIDIA GTX 580 3 GB GPU ) for 5-6 days.
@@ -109,12 +109,13 @@ Important Points:
     ● Overlapping Pooling ( s x z , where s < z ) compared to the non-overlapping scheme s = 2, z = 2
       top-1 and top-5 error rates decrease by 0.4% and 0.3%, respectively.
     ● Reducing Overfitting
-      Data Augmentation!
+      Heavy Data Augmentation!
         - 60 million parameters, 650,000 neurons (Overfits a lot.)
         - Crop 224x224 patches (and their horizontal reflections.)
         - At test time, average the predictions on the 10 patches.
     ● Reducing Overfitting - Dropout
     ● Stochastic Gradient Descent Learning
+    ● batch size = 128
     ● 96 Convolutional Kernels ( 11 x 11 x 3 size kernels. ) :
         - top 48 kernels on GPU 1 : color-agnostic
         - bottom 48 kernels on GPU 2 : color-specific.
