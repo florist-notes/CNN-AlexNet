@@ -39,7 +39,7 @@ But why does the architecture diagram in the paper looks so scary ?
 
 <img src="https://github.com/SKKSaikia/CNN-AlexNet/blob/master/img/alexnet.png">
 
-It is because, the figure shoes training as well, training was done in 2 GPUs. One GPU runs the layer parts at the top of the figure while the other runs the layer parts at the bottom. The GPUs communicate only at certain layers. 
+It is because, the figure shows training as well, training was done in 2 GPUs. One GPU runs the layer parts at the top of the figure while the other runs the layer parts at the bottom. The GPUs communicate only at certain layers. You can check this [slide](http://cvml.ist.ac.at/courses/DLWT_W17/material/AlexNet.pdf) for future reference.
 
 model.summary():
 -
@@ -97,8 +97,10 @@ model.summary():
     
 Important Points:
 -
-
+    ● uses ReLu(Rectified Linear Unit) for the non-linear part, instead of a Tanh or Sigmoid function which 
+      was the earlier standard for traditional neural networks.
     ● ReLU non linearity is applied to the output of every convolutional layer and fully connected layer.
+      reducing the over-fitting by using a Dropout layer after every FC layer.
     ● Rectified Linear Units (first use), overlapping pooling, dropout (0.5) trick to avoid overfitting
     ● Layer 1 (Convolutional) : 55*55*96 = 290,400 neurons & each has 11*11*3 = 363 weights and 1 bias i.e, 
       290400 * 364 = 105,705,600 paramaters on the first layer of the AlexNet alone!
