@@ -149,8 +149,7 @@ I have explained [here]() what the three methods mean, and how it is to be done.
 
 <img src="https://github.com/SKKSaikia/CNN-AlexNet/blob/master/img/coco.jpg">
 
-●  Approach: We take both COCO dataset, and train it on AlexNet. The original paper implemented lot of Data Augmentation, so we ...
-The script is available here : [alexnet-keras.py]()
+●  Approach: Will update soon. Training ...
 
 <b> RESULTS: </b>
 
